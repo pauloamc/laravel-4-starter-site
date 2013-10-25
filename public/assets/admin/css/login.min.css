@@ -1,0 +1,11 @@
+@import url('bootstrap.min.css');body{background-color:#29d;font-family:"Helvetica Neue",sans-serif}.content{margin-top:150px}
+.title{font-size:8rem;color:white;font-weight:800;text-transform:uppercase;letter-spacing:.05em}.form-control{background-color:white;border:0;border-radius:0;-webkit-box-shadow:none;box-shadow:none;-webkit-transition:none;transition:none}
+.btn{border:0;border-radius:0;background-color:#fff;border:1px #29d solid;text-transform:uppercase;color:#1f7bad}.btn:hover{background-color:#f9f9f9;border:1px #29d solid;color:#1f7bad}
+.down{animation-name:down;-webkit-animation-name:down;-moz-animation-name:down;-o-animation-name:down;animation-duration:1s;-webkit-animation-duration:1s;-moz-animation-duration:1s;-o-animation-duration:1s;-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both}
+@keyframes down{0%{transform:translateY(-10%);opacity:.0}100%{transform:translateY(0%);opacity:1}}@-webkit-keyframes down{0%{-webkit-transform:translateY(-10%);opacity:.0}
+100%{-webkit-transform:translateY(0%);opacity:1}}@-moz-keyframes down{0%{-moz-transform:translateY(-10%);opacity:.0}100%{-moz-transform:translateY(0%);opacity:1}
+}@-o-keyframes down{0%{-o-transform:translateY(-10%);opacity:.0}100%{-o-transform:translateY(0%);opacity:1}}.shake{-webkit-animation-name:shake;-moz-animation-name:shake;-o-animation-name:shake;animation-name:shake;-webkit-animation-duration:1s;-moz-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both}
+@keyframes shake{0%,100%{transform:translateX()}10%,30%,50%,70%,90%{transform:translateX(-10px)}20%,40%,60%,80%{transform:translateX(10px)}}@-webkit-keyframes shake{0%,100%{-webkit-transform:translateX()}
+10%,30%,50%,70%,90%{-webkit-transform:translateX(-10px)}20%,40%,60%,80%{-webkit-transform:translateX(10px)}}@-moz-keyframes shake{0%,100%{-moz-transform:translateX()}
+10%,30%,50%,70%,90%{-moz-transform:translateX(-10px)}20%,40%,60%,80%{-moz-transform:translateX(10px)}}@-o-keyframes shake{0%,100%{-o-transform:translateX()}
+10%,30%,50%,70%,90%{-o-transform:translateX(-10px)}20%,40%,60%,80%{-o-transform:translateX(10px)}}

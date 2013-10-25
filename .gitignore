@@ -1,0 +1,5 @@
+/core/bootstrap/compiled.php
+/core/vendor
+/core/composer.phar
+/core/composer.lock
+.DS_Store
