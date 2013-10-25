@@ -23,7 +23,7 @@ class HomeController extends BaseController {
 	{
 		$helper = new Helpers;
 		$helloworld = $helper->helloWorld();
-		return View::make('site.hello')->with('helloworld', $helloworld);
+		return View::make('site.hello', compact('helloworld'));
 	
 
 
